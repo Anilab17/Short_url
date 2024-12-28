@@ -12,7 +12,8 @@ import {OAuth2Client} from 'google-auth-library';
 import session from 'express-session';
 import redis from 'redis';
 
-const BASE_URL = 'http://localhost:5000/api/shorten'
+
+const BASE_URL = 'https://url-shortner.mooo.com/api/shorten'
 
 
 const app = express();
