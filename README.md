@@ -21,6 +21,7 @@ API Documentation
 
 3.Get the short url API:
     URL: https://url-shortner.mooo.com/api/shorten/:id?userid
+    
      In parameter we need to pass alias id and pass the login user id in Query.
      Description: Get the Short url link details based on short url id or alias and while hit this url important since that time dependent on analytics apis. 
       * Add the rate limit for this api while hit this api this will be provide the api response only 10 times within 10 mins
